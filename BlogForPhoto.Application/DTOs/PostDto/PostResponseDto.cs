@@ -1,4 +1,6 @@
-﻿namespace BlogForPhoto.Application.DTOs.PostDto;
+﻿using Microsoft.AspNetCore.Http;
+
+namespace BlogForPhoto.Application.DTOs.PostDto;
 
 public class PostResponseDto
 {
@@ -7,4 +9,5 @@ public class PostResponseDto
     public string Content { get; set; } = String.Empty;
     public DateTime DateCreated { get; set; }
     public string PostAuthor { get; set; } = String.Empty;
+    public string ImageUrl { get; set; }
 }

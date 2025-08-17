@@ -1,8 +1,7 @@
 ﻿using BlogForPhoto.Application.Models;
 using BlogForPhoto.Domain.Entities;
-using Microsoft.AspNetCore.Identity.Service;
 
-namespace BlogForPhoto.Application.Services;
+namespace BlogForPhoto.Application.IService;
 
 public interface IAuthService
 {

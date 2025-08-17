@@ -15,3 +15,6 @@ D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\obj\Debug\net9.0\BlogForPhoto
 D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\obj\Debug\net9.0\ref\BlogForPhoto.Application.dll
 D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\bin\Debug\net9.0\BlogForPhoto.Persistence.dll
 D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\bin\Debug\net9.0\BlogForPhoto.Persistence.pdb
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\bin\Debug\net9.0\BlogForPhoto.Application.runtimeconfig.json
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\obj\Debug\net9.0\BlogForPhoto.Application.sourcelink.json
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\obj\Debug\net9.0\BlogForPhoto.Application.genruntimeconfig.cache

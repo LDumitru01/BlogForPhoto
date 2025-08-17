@@ -13,3 +13,6 @@ D:\PRACTICA\BlogForPhotos\BlogForPhoto.Persistence\obj\Debug\net9.0\BlogForPhoto
 D:\PRACTICA\BlogForPhotos\BlogForPhoto.Persistence\obj\Debug\net9.0\refint\BlogForPhoto.Persistence.dll
 D:\PRACTICA\BlogForPhotos\BlogForPhoto.Persistence\obj\Debug\net9.0\BlogForPhoto.Persistence.pdb
 D:\PRACTICA\BlogForPhotos\BlogForPhoto.Persistence\obj\Debug\net9.0\ref\BlogForPhoto.Persistence.dll
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Persistence\bin\Debug\net9.0\BlogForPhoto.Persistence.runtimeconfig.json
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Persistence\obj\Debug\net9.0\BlogForPhoto.Persistence.sourcelink.json
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Persistence\obj\Debug\net9.0\BlogForPhoto.Persistence.genruntimeconfig.cache

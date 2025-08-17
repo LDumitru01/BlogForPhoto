@@ -1,21 +1,24 @@
 ﻿using BlogForPhoto.Application.DTOs.PostDto;
 using BlogForPhoto.Application.IService;
 using BlogForPhoto.Domain.Entities;
-using BlogForPhoto.Persistence.Data.PostContext;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+
 
 namespace BlogForPhotos.Controllers;
 
 [Route("Api/[controller]")]
 [ApiController]
 
-public class PostController(IPostService postService, PostDbContext postDbcontext) : ControllerBase
+public class PostController : ControllerBase
 {
-    private readonly PostDbContext _postDbcontext = postDbcontext;
-    private readonly IPostService _postService = postService;
 
-    [HttpPost]
+    private readonly IPostService _postService;
+
+    public PostController(IPostService postService)
+    {
+        _postService = postService;
+    }
+    [HttpPost]  
     public async Task<ActionResult<Post>> CreatePost(PostCreateDto request)
     {
         var post = await _postService.CreatePostAsync(request);
@@ -36,10 +39,9 @@ public class PostController(IPostService postService, PostDbContext postDbcontex
     [HttpGet("search")]
     public async Task<IActionResult> SearchByTitle([FromQuery] string title)
     {
-        var post = await _postDbcontext.Posts
-            .FirstOrDefaultAsync(p => p.Title.ToLower().Contains(title.ToLower()));
+        var post = await _postService.SearchPostByTitleAsync(title);
 
-        if (post == null)
+        if (!post.Any())
             return NotFound("No post found with this title.");
 
         return Ok(post);
@@ -71,5 +73,15 @@ public class PostController(IPostService postService, PostDbContext postDbcontex
     {
         var posts = await _postService.GetAllPostsAsync();
         return Ok(posts);
+    }
+
+    [HttpPost("{postId}/upload-photo")]
+    public async Task<IActionResult> UploadPhoto(Guid postId, IFormFile file)
+    {
+        if (file == null)
+            return BadRequest("No file uploaded"); // dacă ajunge null, știm că problema e la request
+
+        var url = await _postService.UploadPhotoAsync(postId, file);
+        return Ok(new { Url = url });
     }
 }

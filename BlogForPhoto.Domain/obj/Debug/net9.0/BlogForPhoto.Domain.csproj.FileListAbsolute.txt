@@ -10,3 +10,6 @@ D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Debug\net9.0\refint\BlogForPho
 D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Debug\net9.0\BlogForPhoto.Domain.pdb
 D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Debug\net9.0\ref\BlogForPhoto.Domain.dll
 D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Debug\net9.0\BlogForPhoto.Domain.csproj.AssemblyReference.cache
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\bin\Debug\net9.0\BlogForPhoto.Domain.runtimeconfig.json
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Debug\net9.0\BlogForPhoto.Domain.sourcelink.json
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Debug\net9.0\BlogForPhoto.Domain.genruntimeconfig.cache
