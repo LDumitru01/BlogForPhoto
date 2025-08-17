@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogForPhotos.API", "BlogForPhotos.API\BlogForPhotos.API.csproj", "{46D0BEDC-0C54-449A-BF36-64D2DFEEC9BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogForPhoto.Application", "BlogForPhoto.Application\BlogForPhoto.Application.csproj", "{EAF03237-D247-445A-BC25-25C85FB4242F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogForPhoto.Persistence", "BlogForPhoto.Persistence\BlogForPhoto.Persistence.csproj", "{9A3D0989-B73B-44BD-AACC-356E69848E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogForPhoto.Domain", "BlogForPhoto.Domain\BlogForPhoto.Domain.csproj", "{D4561062-4428-4212-BEBB-37F2B1792E03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46D0BEDC-0C54-449A-BF36-64D2DFEEC9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46D0BEDC-0C54-449A-BF36-64D2DFEEC9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46D0BEDC-0C54-449A-BF36-64D2DFEEC9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46D0BEDC-0C54-449A-BF36-64D2DFEEC9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF03237-D247-445A-BC25-25C85FB4242F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF03237-D247-445A-BC25-25C85FB4242F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF03237-D247-445A-BC25-25C85FB4242F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF03237-D247-445A-BC25-25C85FB4242F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3D0989-B73B-44BD-AACC-356E69848E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3D0989-B73B-44BD-AACC-356E69848E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3D0989-B73B-44BD-AACC-356E69848E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3D0989-B73B-44BD-AACC-356E69848E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4561062-4428-4212-BEBB-37F2B1792E03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4561062-4428-4212-BEBB-37F2B1792E03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4561062-4428-4212-BEBB-37F2B1792E03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4561062-4428-4212-BEBB-37F2B1792E03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

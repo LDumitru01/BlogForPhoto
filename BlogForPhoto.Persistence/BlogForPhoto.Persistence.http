@@ -1,0 +1,6 @@
+@BlogForPhoto.Persistence_HostAddress = http://localhost:5226
+
+GET {{BlogForPhoto.Persistence_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,372 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\PRACTICA\\BlogForPhotos\\BlogForPhotos.API\\BlogForPhotos.API.csproj": {}
+  },
+  "projects": {
+    "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Application\\BlogForPhoto.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Application\\BlogForPhoto.Application.csproj",
+        "projectName": "BlogForPhoto.Application",
+        "projectPath": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Application\\BlogForPhoto.Application.csproj",
+        "packagesPath": "C:\\Users\\d2lea\\.nuget\\packages\\",
+        "outputPath": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\d2lea\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Domain\\BlogForPhoto.Domain.csproj": {
+                "projectPath": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Domain\\BlogForPhoto.Domain.csproj"
+              },
+              "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Persistence\\BlogForPhoto.Persistence.csproj": {
+                "projectPath": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Persistence\\BlogForPhoto.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.Service.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.0.0-preview1-final, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\d2lea\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Domain\\BlogForPhoto.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Domain\\BlogForPhoto.Domain.csproj",
+        "projectName": "BlogForPhoto.Domain",
+        "projectPath": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Domain\\BlogForPhoto.Domain.csproj",
+        "packagesPath": "C:\\Users\\d2lea\\.nuget\\packages\\",
+        "outputPath": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\d2lea\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.Service.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.0.0-preview1-final, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\d2lea\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Persistence\\BlogForPhoto.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Persistence\\BlogForPhoto.Persistence.csproj",
+        "projectName": "BlogForPhoto.Persistence",
+        "projectPath": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Persistence\\BlogForPhoto.Persistence.csproj",
+        "packagesPath": "C:\\Users\\d2lea\\.nuget\\packages\\",
+        "outputPath": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\d2lea\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Domain\\BlogForPhoto.Domain.csproj": {
+                "projectPath": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Domain\\BlogForPhoto.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Aspire.Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.3.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.Service.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.0.0-preview1-final, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.0-preview.6.25358.103, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[10.0.0-preview.6.25358.103, )"
+            },
+            "Net4x.ApplicationServices": {
+              "target": "Package",
+              "version": "[4.8.9037, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\d2lea\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PRACTICA\\BlogForPhotos\\BlogForPhotos.API\\BlogForPhotos.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhotos.API\\BlogForPhotos.API.csproj",
+        "projectName": "BlogForPhotos.API",
+        "projectPath": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhotos.API\\BlogForPhotos.API.csproj",
+        "packagesPath": "C:\\Users\\d2lea\\.nuget\\packages\\",
+        "outputPath": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhotos.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\d2lea\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Application\\BlogForPhoto.Application.csproj": {
+                "projectPath": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Application\\BlogForPhoto.Application.csproj"
+              },
+              "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Domain\\BlogForPhoto.Domain.csproj": {
+                "projectPath": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Domain\\BlogForPhoto.Domain.csproj"
+              },
+              "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Persistence\\BlogForPhoto.Persistence.csproj": {
+                "projectPath": "D:\\PRACTICA\\BlogForPhotos\\BlogForPhoto.Persistence\\BlogForPhoto.Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Iksde.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[0.0.2, )"
+            },
+            "Lavshyak.AspNetCore.Identity.Extensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.Service.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.0.0-preview1-final, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Microsoft.NET.StringTools": {
+              "target": "Package",
+              "version": "[17.15.0-preview-25277-114, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Scalar.AspNetCore": {
+              "target": "Package",
+              "version": "[2.6.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.12.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\d2lea\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

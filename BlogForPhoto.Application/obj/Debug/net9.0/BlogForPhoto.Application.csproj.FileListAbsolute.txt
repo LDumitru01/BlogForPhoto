@@ -1,0 +1,17 @@
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\bin\Debug\net9.0\BlogForPhoto.Application.deps.json
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\bin\Debug\net9.0\BlogForPhoto.Application.dll
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\bin\Debug\net9.0\BlogForPhoto.Application.pdb
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\bin\Debug\net9.0\BlogForPhoto.Domain.dll
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\bin\Debug\net9.0\BlogForPhoto.Domain.pdb
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\obj\Debug\net9.0\BlogForPhoto.Application.csproj.AssemblyReference.cache
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\obj\Debug\net9.0\BlogForPhoto.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\obj\Debug\net9.0\BlogForPhoto.Application.AssemblyInfoInputs.cache
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\obj\Debug\net9.0\BlogForPhoto.Application.AssemblyInfo.cs
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\obj\Debug\net9.0\BlogForPhoto.Application.csproj.CoreCompileInputs.cache
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\obj\Debug\net9.0\BlogForP.E74BA63C.Up2Date
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\obj\Debug\net9.0\BlogForPhoto.Application.dll
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\obj\Debug\net9.0\refint\BlogForPhoto.Application.dll
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\obj\Debug\net9.0\BlogForPhoto.Application.pdb
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\obj\Debug\net9.0\ref\BlogForPhoto.Application.dll
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\bin\Debug\net9.0\BlogForPhoto.Persistence.dll
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Application\bin\Debug\net9.0\BlogForPhoto.Persistence.pdb
