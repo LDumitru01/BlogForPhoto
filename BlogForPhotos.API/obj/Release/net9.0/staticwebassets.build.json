@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "f4ryoWPW+BwKc1SgCQudFZW7nW9vrNxrjo61kRLnjgo=",
+  "Source": "BlogForPhotos.API",
+  "BasePath": "_content/BlogForPhotos.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

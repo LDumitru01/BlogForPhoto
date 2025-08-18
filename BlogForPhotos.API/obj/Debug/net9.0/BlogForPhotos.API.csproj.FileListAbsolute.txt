@@ -26,12 +26,6 @@ D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\scopedcss\bundle\Bl
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\staticwebassets.build.json
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\staticwebassets.development.json
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\staticwebassets\msbuild.BlogForPhotos.API.Microsoft.AspNetCore.StaticWebAssets.props
-D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\staticwebassets\msbuild.BlogForPhotos.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\staticwebassets\msbuild.build.BlogForPhotos.API.props
-D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.BlogForPhotos.API.props
-D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.BlogForPhotos.API.props
-D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\staticwebassets.pack.json
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\BlogForP.E8A41DB5.Up2Date
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\BlogForPhotos.API.dll
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\refint\BlogForPhotos.API.dll
@@ -282,10 +276,8 @@ D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\bin\Debug\net9.0\Microsoft.Identity.
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\bin\Debug\net9.0\System.ClientModel.dll
-D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\bin\Debug\net9.0\System.Formats.Asn1.dll
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\bin\Debug\net9.0\System.Memory.Data.dll
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\bin\Debug\net9.0\System.Runtime.Caching.dll
-D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\bin\Debug\net9.0\System.Text.Json.dll
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
@@ -313,3 +305,8 @@ D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\bin\Debug\net9.0\zh-Hant\Microsoft.C
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\bin\Debug\net9.0\System.Security.Permissions.dll
 D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\BlogForPhotos.API.sourcelink.json
+D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\PRACTICA\BlogForPhotos\BlogForPhotos.API\obj\Debug\net9.0\staticwebassets.build.json.cache

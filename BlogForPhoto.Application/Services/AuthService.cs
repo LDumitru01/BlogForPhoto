@@ -6,7 +6,6 @@ using BlogForPhoto.Application.IService;
 using BlogForPhoto.Application.Models;
 using BlogForPhoto.Domain.Entities;
 using BlogForPhoto.Persistence.Data;
-using BlogForPhoto.Persistence.Data.UserContext;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -14,7 +13,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace BlogForPhoto.Application.Services;
 
-public class AuthService(UserDbContext context, IConfiguration configuration) : IAuthService
+public class AuthService(BlogDbContext context, IConfiguration configuration) : IAuthService
 {
     public async Task<User?> RegisterAsync(UserDto request)
     {

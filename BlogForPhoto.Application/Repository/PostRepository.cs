@@ -1,15 +1,15 @@
 ﻿using BlogForPhoto.Application.IRepository;
 using BlogForPhoto.Domain.Entities;
-using BlogForPhoto.Persistence.Data.PostContext;
+using BlogForPhoto.Persistence.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace BlogForPhoto.Application.Repository;
 
 public class PostRepository : IPostRepository
 {
-    private readonly PostDbContext _postContext;
+    private readonly BlogDbContext _postContext;
 
-    public PostRepository(PostDbContext context)
+    public PostRepository(BlogDbContext context)
     {
         _postContext = context;
     }
@@ -19,7 +19,7 @@ public class PostRepository : IPostRepository
         return await _postContext.Posts.ToListAsync();
     }
 
-    public async Task<Post?> GetPostById(Guid id)
+    public async Task<Post> GetPostById(Guid id)
     {
         var post = await _postContext.Posts.FirstOrDefaultAsync(p => p.Id == id);
         if (post is null)

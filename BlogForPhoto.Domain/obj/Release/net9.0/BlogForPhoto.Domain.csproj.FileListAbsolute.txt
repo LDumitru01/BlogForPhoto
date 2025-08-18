@@ -1,0 +1,15 @@
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\bin\Release\net9.0\BlogForPhoto.Domain.deps.json
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\bin\Release\net9.0\BlogForPhoto.Domain.runtimeconfig.json
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\bin\Release\net9.0\BlogForPhoto.Domain.dll
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\bin\Release\net9.0\BlogForPhoto.Domain.pdb
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Release\net9.0\BlogForPhoto.Domain.csproj.AssemblyReference.cache
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Release\net9.0\BlogForPhoto.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Release\net9.0\BlogForPhoto.Domain.AssemblyInfoInputs.cache
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Release\net9.0\BlogForPhoto.Domain.AssemblyInfo.cs
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Release\net9.0\BlogForPhoto.Domain.csproj.CoreCompileInputs.cache
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Release\net9.0\BlogForPhoto.Domain.sourcelink.json
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Release\net9.0\BlogForPhoto.Domain.dll
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Release\net9.0\refint\BlogForPhoto.Domain.dll
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Release\net9.0\BlogForPhoto.Domain.pdb
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Release\net9.0\BlogForPhoto.Domain.genruntimeconfig.cache
+D:\PRACTICA\BlogForPhotos\BlogForPhoto.Domain\obj\Release\net9.0\ref\BlogForPhoto.Domain.dll

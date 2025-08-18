@@ -4,8 +4,6 @@ using BlogForPhoto.Application.IService;
 using BlogForPhoto.Application.Repository;
 using BlogForPhoto.Application.Services;
 using BlogForPhoto.Persistence.Data;
-using BlogForPhoto.Persistence.Data.PostContext;
-using BlogForPhoto.Persistence.Data.UserContext;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -22,11 +20,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddOpenApi();
-builder.Services.AddDbContext<UserDbContext>(options =>
+builder.Services.AddDbContext<BlogDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-builder.Services.AddDbContext<PostDbContext>(optinons =>
-    optinons.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 builder.Services.AddControllers();
+
 
 builder.Services.AddSwaggerGen(c =>
 {

@@ -6,7 +6,7 @@ namespace BlogForPhoto.Application.IService;
 public interface IPostService
 {
     Task<PostResponseDto> CreatePostAsync(PostCreateDto dto);
-    Task<PostResponseDto?> GetPostByIdAsync(Guid photoId);
+    Task<PostResponseDto> GetPostByIdAsync(Guid photoId);
     Task<PostResponseDto> UpdatePostAsync(PostUpdateDto dto);
     Task<bool> DeletePostAsync(Guid photoId);
     Task<List<PostResponseDto>> GetAllPostsAsync();
