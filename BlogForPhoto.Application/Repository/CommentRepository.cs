@@ -17,7 +17,9 @@ public class CommentRepository : ICommentRepository
 
     public async Task<Comment> GetByIdAsync(Guid id)
     {
-        return await _context.Comments.FirstOrDefaultAsync(c => c.Id == id);
+        return await _context.Comments
+            .Include(c => c.User)
+            .FirstOrDefaultAsync(c => c.Id == id);
     }
 
     public async Task AddAsync(Comment comment)

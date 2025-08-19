@@ -53,6 +53,7 @@ public class PostService : IPostService
             Title = post.Title,
             Content = post.Content,
             ImageUrl = post.ImageUrl,
+            UserId = post.UserId,
             PostAuthor = post.PostAuthor
         };
     }
@@ -108,6 +109,7 @@ public class PostService : IPostService
             Id = p.Id,
             Title = p.Title,
             Content = p.Content,
+            UserId = p.UserId,
             DateCreated = p.DateCreated,
             PostAuthor = p.PostAuthor
           

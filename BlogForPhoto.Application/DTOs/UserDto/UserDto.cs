@@ -1,4 +1,4 @@
-﻿namespace BlogForPhoto.Application.Models;
+﻿namespace BlogForPhoto.Application.DTOs.UserDto;
 
 public class UserDto
 {

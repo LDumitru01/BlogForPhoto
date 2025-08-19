@@ -10,11 +10,12 @@ public class Post
     public string Title { get; set; } = string.Empty;
     [StringLength(564)]
     public string Content { get; set; } = string.Empty;
-    public int UserId { get; set; }
+    public Guid UserId { get; set; }
     public DateTime DateCreated { get; set; }
     [StringLength(256)]
     public string ImageUrl { get; set; } = string.Empty;
     
     [StringLength(50)]
     public string PostAuthor { get; set; } = string.Empty;
+    public User? User { get; set; }
 }

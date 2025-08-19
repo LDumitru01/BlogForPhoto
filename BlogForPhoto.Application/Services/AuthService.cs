@@ -2,6 +2,7 @@
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
+using BlogForPhoto.Application.DTOs.UserDto;
 using BlogForPhoto.Application.IService;
 using BlogForPhoto.Application.Models;
 using BlogForPhoto.Domain.Entities;

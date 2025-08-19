@@ -1,4 +1,5 @@
-﻿using BlogForPhoto.Application.Models;
+﻿using BlogForPhoto.Application.DTOs.UserDto;
+using BlogForPhoto.Application.Models;
 using BlogForPhoto.Domain.Entities;
 
 namespace BlogForPhoto.Application.IService;

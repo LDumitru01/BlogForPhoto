@@ -1,4 +1,5 @@
 ﻿
+using BlogForPhoto.Application.DTOs.UserDto;
 using BlogForPhoto.Application.IService;
 using BlogForPhoto.Application.Models;
 using BlogForPhoto.Application.Services;
